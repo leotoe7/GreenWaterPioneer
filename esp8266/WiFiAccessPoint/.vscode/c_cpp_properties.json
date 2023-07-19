@@ -1,0 +1,76 @@
+{
+    "version": 4,
+    "configurations": [
+        {
+            "name": "Win32",
+            "compilerPath": "D:\\Program Files\\mingw64\\bin\\gcc.exe",
+            "compilerArgs": [],
+            "intelliSenseMode": "windows-gcc-x64",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/Users/Leotoe/AppData/Local/Arduino15/packages/**"
+            ],
+            "forcedInclude": [],
+            "cStandard": "gnu99",
+            "cppStandard": "gnu++98",
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ]
+        },
+        {
+            "name": "Arduino",
+            "compilerPath": "@C:\\Users\\Leotoe\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\3.1.1\\tools\\warnings\\none-g++",
+            "compilerArgs": [
+                "-U__STRICT_ANSI__",
+                "-free",
+                "-fipa-pta",
+                "-Werror=return-type",
+                "-mlongcalls",
+                "-mtext-section-literals",
+                "-fno-rtti",
+                "-falign-functions=4",
+                "-std=gnu++17"
+            ],
+            "intelliSenseMode": "gcc-x64",
+            "includePath": [
+                "C:\\Users\\Leotoe\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\3.1.1\\tools\\sdk\\include",
+                "C:\\Users\\Leotoe\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\3.1.1\\tools\\sdk\\lwip2\\include",
+                "C:\\Users\\Leotoe\\AppData\\Local\\Temp\\arduino\\sketches\\D2D33B6C63584F7DB249FAD021D0FA57\\core",
+                "C:\\Users\\Leotoe\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\3.1.1\\cores\\esp8266",
+                "C:\\Users\\Leotoe\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\3.1.1\\variants\\nodemcu",
+                "C:\\Users\\Leotoe\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\3.1.1\\libraries\\ESP8266WiFi\\src",
+                "C:\\Users\\Leotoe\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\3.1.1\\libraries\\ESP8266WebServer\\src",
+                "C:\\Users\\Leotoe\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\3.1.1\\libraries\\Ticker\\src"
+            ],
+            "forcedInclude": [
+                "C:\\Users\\Leotoe\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\3.1.1\\cores\\esp8266\\Arduino.h"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "defines": [
+                "__ets__",
+                "ICACHE_FLASH",
+                "_GNU_SOURCE",
+                "ESP8266",
+                "MMU_IRAM_SIZE=0x8000",
+                "MMU_ICACHE_SIZE=0x8000",
+                "NONOSDK22x_190703=1",
+                "F_CPU=80000000L",
+                "LWIP_OPEN_SRC",
+                "TCP_MSS=536",
+                "LWIP_FEATURES=1",
+                "LWIP_IPV6=0",
+                "ARDUINO=10607",
+                "ARDUINO_ESP8266_NODEMCU_ESP12E",
+                "ARDUINO_ARCH_ESP8266",
+                "ARDUINO_BOARD=\"ESP8266_NODEMCU_ESP12E\"",
+                "ARDUINO_BOARD_ID=\"nodemcuv2\"",
+                "LED_BUILTIN=2",
+                "FLASHMODE_DIO",
+                "USBCON"
+            ]
+        }
+    ]
+}
